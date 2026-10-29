@@ -1,0 +1,29 @@
+import React from 'react'
+
+const Regions = () => {
+    return (
+        <section id='regions'>
+            <h1>OUR REGIONS</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam repellat iure et eius nam saepe voluptatem maxime deleniti repellendus dolore.</p>
+            <div className="region_container">
+                <div className="card">
+                    <img src="./region1.jpg" alt="" />
+                    <h2>MOUNTAINS</h2>
+                    <p>
+                        <span>90</span> Properties
+                    </p>
+                </div>
+                <div className="card">
+                    <img src="./region2.jpg" alt="" />
+                    <h2>Coastline</h2>
+                    <p>
+                        <span>52</span> Properties
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    )
+}
+
+export default Regions
